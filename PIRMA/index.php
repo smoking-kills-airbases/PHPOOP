@@ -10,8 +10,8 @@ $employee = new Employee('Vytautas Antanauskas', 1190);
 $intern = new Intern('Petras Audrauskas', 900);
 $manager = new Manager('Tomas Kestauskas', 1600, 8);
 
-//var_dump($intern);
-//var_dump($manager);
+var_dump($intern);
+var_dump($manager);
 
 var_dump($intern->calculateSalary());
 var_dump($manager->calculateSalary());
