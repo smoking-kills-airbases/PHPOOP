@@ -1,0 +1,15 @@
+{
+    "name": "pc/antra",
+    "autoload": {
+        "psr-4": {
+            "Antra\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "smoking-kills-airbases",
+            "email": "gelzbetonis369@gmail.com"
+        }
+    ],
+    "require": {}
+}

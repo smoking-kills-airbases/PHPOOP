@@ -13,6 +13,9 @@ $manager = new Manager('Tomas Kestauskas', 1600, 8);
 var_dump($intern);
 var_dump($manager);
 
+echo $intern . PHP_EOL;
+echo $manager . PHP_EOL;
+
 var_dump($intern->calculateSalary());
 var_dump($manager->calculateSalary());
 
