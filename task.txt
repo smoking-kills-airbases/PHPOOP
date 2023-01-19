@@ -34,12 +34,12 @@ Paklonuokite intern sukurtą objektą+
 
 
 2. Dependency invertion principle užduotis
-2.1. Sukurkite CinemaTicket class [1 balas]
-    - filmo pavadinimas: string
-    - vieta: string
-    - seanso data: Datetime
-    - kaina: float
-    - constructorius turi priimti visus properčius
+2.1. Sukurkite CinemaTicket class [1 balas]+
+    - filmo pavadinimas: string+
+    - vieta: string+
+    - seanso data: Datetime+
+    - kaina: float+
+    - constructorius turi priimti visus properčius+
 
 
 2.2. Sukurkite TotalCalculatorInterface. [0.5 balo]
