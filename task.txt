@@ -37,7 +37,7 @@ Paklonuokite intern sukurtą objektą+
 2.1. Sukurkite CinemaTicket class [1 balas]+
     - filmo pavadinimas: string+
     - vieta: string+
-    - seanso data: Datetime+
+    - seanso data: Datetime
     - kaina: float+
     - constructorius turi priimti visus properčius+
 
