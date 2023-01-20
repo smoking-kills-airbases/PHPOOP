@@ -6,11 +6,11 @@ use Interfaces\TotalCalculatorInterface;
 
 class StandardPriceCalculator implements TotalCalculatorInterface
 {
-    public function calculatePrice($items)
+    public function calculatePrice($items): float
     {
         $totalPrice = 0;
         foreach ($items as $item) {
-            $totalPrice = array_sum($item->price);
+            $totalPrice += $item->price;
         }
         return $totalPrice;
     }

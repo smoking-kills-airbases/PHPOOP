@@ -47,7 +47,7 @@ Paklonuokite intern sukurtą objektą+
 
 
 2.3. Realizuokite 3 skirtingus Kainos skaičiavimus: [1.5 balo]
-    - standartinis -> praeina per visus ticketus ir sudeda ju kainą
+    - standartinis -> praeina per visus ticketus ir sudeda ju kainą+
     - su subscriberio nuolaida -> praiena per visus ticketus, sudeda ju suma ir taiko  10% nuolaida
     - naujo vartotojo nuolaida -> praeina per visus ticket, taiko nuolaida tik pirmam itemui 20%
 
