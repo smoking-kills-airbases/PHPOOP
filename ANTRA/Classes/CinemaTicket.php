@@ -6,9 +6,9 @@ use \Datetime;
 
 class CinemaTicket
 {
-    private string $movieTitle;
-    private string $location;
-    private ?DateTime $sessionTime;
+    public string $movieTitle;
+    public string $location;
+    public ?DateTime $sessionTime;
     private float $price;
 
     public function __construct(string $movieTitle, string $location, DateTime $sessionTime, float $price)
