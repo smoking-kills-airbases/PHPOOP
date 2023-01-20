@@ -2,10 +2,11 @@
 
 namespace Classes;
 
+
 class OrderProcessor extends StandardPriceCalculator
 {
-    public array $items;
-    public $calculator;
+    private array $items;
+    private $calculator;
 
     public function __construct($calculator)
     {

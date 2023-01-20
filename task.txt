@@ -57,7 +57,7 @@ Paklonuokite intern sukurtą objektą+
     - SubscriberPriceCalculator;
     - NewCustomerPriceCalculator;
 
-2.4. Sukurkite klasę OrderProcessor: [1 balas]
+2.4. Sukurkite klasę OrderProcessor: [1 balas]+
     turi savyje properčius:
         - items: CinemaTicket[]
         - calculator;
@@ -68,13 +68,13 @@ Paklonuokite intern sukurtą objektą+
     Per construktorių yra paduodamas calculatorius!
 
 
-2.5. Sukurkite 3 CinemaTicket su kainomis: [1 balas]
+2.5. Sukurkite 3 CinemaTicket su kainomis: [1 balas]+
     1=> 10 EUR; 2=> 14 EUR; 3=> 8 EUR
 
-    Sukurkite 3 Skaičiavimo strategijų objektus
-    Sukurkite 3 OrderProcessor objektus ir pabandykite sudėti jiems visiems šiuo itemus naudodami addItem bei pritaikyti skirtingas skaičiavimo strategijas.
-    Išveskite kiekvieno OrderioProcessor total kainą.
+    Sukurkite 3 Skaičiavimo strategijų objektus+
+    Sukurkite 3 OrderProcessor objektus ir pabandykite sudėti jiems visiems šiuo itemus naudodami addItem bei pritaikyti skirtingas skaičiavimo strategijas.+
+    Išveskite kiekvieno OrderioProcessor total kainą.+
 
 Pastebėjimai:
-    - Klasės ir interface turi gyvuoti atskiruose failuose.
-    - Turi būti naudojami namespace ir composer autoloaderis [PAPILDOMAI + 1 balas]
+    - Klasės ir interface turi gyvuoti atskiruose failuose.+
+    - Turi būti naudojami namespace ir composer autoloaderis [PAPILDOMAI + 1 balas]+

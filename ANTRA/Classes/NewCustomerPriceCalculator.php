@@ -12,10 +12,10 @@ class NewCustomerPriceCalculator implements TotalCalculatorInterface
         $first = true;
         foreach ($items as $item) {
             if ($first) {
-                $totalPrice += ($item->price - ($item->price * 0.2));
+                $totalPrice += ($item->getPrice() - ($item->getPrice() * 0.2));
                 $first = false;
             } else {
-                $totalPrice += $item->price;
+                $totalPrice += $item->getPrice();
             }
         }
         return $totalPrice;

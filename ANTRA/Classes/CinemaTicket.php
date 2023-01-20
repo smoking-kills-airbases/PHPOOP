@@ -6,10 +6,10 @@ use \Datetime;
 
 class CinemaTicket
 {
-    public string $movieTitle;
-    public string $location;
-    public ?DateTime $sessionTime;
-    public float $price;
+    private string $movieTitle;
+    private string $location;
+    private ?DateTime $sessionTime;
+    private float $price;
 
     public function __construct(string $movieTitle, string $location, DateTime $sessionTime, float $price)
     {
@@ -17,5 +17,23 @@ class CinemaTicket
         $this->location = $location;
         $this->sessionTime = $sessionTime;
         $this->price = $price;
+    }
+
+
+//    public function getMovieTitle(): string
+//    {
+//        return $this->movieTitle;
+//    }
+//    public function getLocation(): string
+//    {
+//        return $this->location;
+//    }
+//    public function getSessionTime(): ?Datetime
+//    {
+//        return $this->sessionTime;
+//    }
+    public function getPrice(): float
+    {
+        return $this->price;
     }
 }
