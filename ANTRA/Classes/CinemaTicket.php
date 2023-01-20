@@ -8,10 +8,10 @@ class CinemaTicket
 {
     private string $movieTitle;
     private string $location;
-    private $sessionTime;
+    private ?DateTime $sessionTime;
     private float $price;
 
-    public function __construct(string $movieTitle, string $location, Datetime $sessionTime, float $price)
+    public function __construct(string $movieTitle, string $location, DateTime $sessionTime, float $price)
     {
         $this->movieTitle = $movieTitle;
         $this->location = $location;
