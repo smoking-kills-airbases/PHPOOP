@@ -4,5 +4,5 @@ namespace Interfaces;
 
 interface TotalCalculatorInterface
 {
-    public function calculatePrice();
+    public function calculatePrice($items);
 }
