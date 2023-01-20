@@ -19,19 +19,6 @@ class CinemaTicket
         $this->price = $price;
     }
 
-
-//    public function getMovieTitle(): string
-//    {
-//        return $this->movieTitle;
-//    }
-//    public function getLocation(): string
-//    {
-//        return $this->location;
-//    }
-//    public function getSessionTime(): ?Datetime
-//    {
-//        return $this->sessionTime;
-//    }
     public function getPrice(): float
     {
         return $this->price;

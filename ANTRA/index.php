@@ -36,4 +36,3 @@ echo "Order processor 1 total price: " . $orderProcessor1->calculatePrice($order
 echo "Order processor 2 total price: " . $orderProcessor2->calculatePrice($orderProcessor2->getList()) . " EUR" . PHP_EOL;
 echo "Order processor 3 total price: " . $orderProcessor3->calculatePrice($orderProcessor3->getList()) . " EUR" . PHP_EOL;
 
-//var_dump($orderProcessor1);
